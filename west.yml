@@ -35,7 +35,8 @@ manifest:
       url-base: https://github.com/PelionIoT
     - name: memfault
       url-base: https://github.com/memfault
-
+    - name: mtornblad
+      url-base: https://github.com/mtornblad
   # If not otherwise specified, the projects below should be obtained
   # from the ncs remote.
   defaults:
@@ -55,6 +56,7 @@ manifest:
     - name: zephyr
       repo-path: sdk-zephyr
       revision: f295fb7c67ca6895a98bc33c1cf0a837d2f5383e
+      remote: mtornblad
       import:
         # In addition to the zephyr repository itself, NCS also
         # imports the contents of zephyr/west.yml at the above
